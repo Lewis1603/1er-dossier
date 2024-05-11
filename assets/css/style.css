@@ -1,0 +1,31 @@
+
+nav {
+    text-align: center;
+    border: solid;
+    height: 40px;
+    background-color: #ddd;
+}
+
+.navElement {
+    display: inline;
+    margin: 0 15px;
+    text-decoration: none;
+} 
+#lew1{
+    text-align: center;
+    color: red  ; 
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+letter-spacing: 4px;
+} 
+
+#lew0{
+    text-align: center; 
+    border: solid red;
+    background: url(/assets/img.png);
+    
+    background-size: contain;
+} 
+section{
+    margin-bottom: 20px;
+}

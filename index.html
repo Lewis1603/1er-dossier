@@ -4,58 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        /* .navElement {
+            display: inline;
+            margin: 0 15px;
+            border: solid;
+        } */
+    </style>
   </head>
   <body>
    <header>
-          <nav>
-           <class>
-            <a href="">ACCUEIL</a>
-           </class> 
-
-           <class>
-            <a href="">A PROPOS  </a>
-           </class>
-
-           <class>
-            <a href="">TRAVAIL</a>
-           </class> 
-
-           <class>
-            <a href=""> CV</a>
-           </class> 
-
-           <class>
-              <a href="">CONTACT</a>
-           </class>
+          <nav style="padding-top: 15px;">
+            <a class="navElement" href="">ACCUEIL</a>
+            <a class="navElement" href="">A PROPOS  </a>
+            <a class="navElement" href="">TRAVAIL</a>
+            <a class="navElement" href=""> CV</a>
+            <a class="navElement" href="">CONTACT</a>
          </nav>
    </header>
        <BR>
        <BR>
    <main> 
-    <section>
-      <P>
+    <section id="lew0">
+      <P id="lew1">
         A PROPOS </P>
-      <video width="300px" height="200" autoplay > 
-        <source src="VID1.mp4" type="video/mp4"
+      <video width="300px" height="200" controls > 
+        <source src="/assets/VID1.mp4" type="video/mp4"
       </video> 
     </section> 
 
-    <section>
-      <p> TRAVAIL</p> 
-      <audio controls>
-        <source src="aud1.mp3" type="audio/mpeg">
+    <section style="text-align: center; border: solid red; background-color: brown;">
+      <p style="font-weight: 900; letter-spacing: 4px; font-weight: bold ;font-family: Verdana, Geneva, Tahoma, sans-serif;"> TRAVAIL</p> 
+      <audio controls style="border:solid; 
+      background-color: brown;
+      border-radius: 15%;">
+        <source src="./assets/aud1.mp3" type="audio/mpeg">
 
     </audio>
     </section>
 
-    <section>
-      <p> CV </p>
+    <section style="text-align: center;
+    border: dashed;
+    color: red; background-color: aqua;
+    ">
+      <p style="font-weight: 900; letter-spacing: 4px; font-weight: bold ;font-family: Verdana, Geneva, Tahoma, sans-serif;"> CV </p>
       <a href="lien vers cv " target="_blank"> lien vers CV </a>
 
     </section> 
 
-    <section> 
-           <p> CONTACT </p> 
+    <section style="background-color: brown
+    ;
+    text-align: center;
+    "> 
+           <p style="font-weight: 900; letter-spacing: 4px; font-weight: bold ;font-family: Verdana, Geneva, Tahoma, sans-serif;"> CONTACT </p> 
            <form>
             <label> NUMERO</label>
             <input type="number" name="number" placeholder="entrez votre numero" />
@@ -70,12 +72,7 @@
 
   </main>
 
-      
-
-    
-   
-
-  <footer>
+   <footer>
    <hr> 
    <h6> 
     merci pour votre visite 
