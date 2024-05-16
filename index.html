@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <style>
-        /* .navElement {
+      /* .navElement {
             display: inline;
             margin: 0 15px;
             border: solid;
@@ -14,72 +14,66 @@
     </style>
   </head>
   <body>
-   <header>
-          <nav style="padding-top: 15px;">
-            <a class="navElement" href="">ACCUEIL</a>
-            <a class="navElement" href="">A PROPOS  </a>
-            <a class="navElement" href="">TRAVAIL</a>
-            <a class="navElement" href=""> CV</a>
-            <a class="navElement" href="">CONTACT</a>
-         </nav>
-   </header>
-       <BR>
-       <BR>
-   <main> 
-    <section id="lew0">
-      <P id="lew1">
-        A PROPOS </P>
-      <video width="300px" height="200" controls > 
-        <source src="/assets/VID1.mp4" type="video/mp4"
-      </video> 
-    </section> 
+    <header>
+      <nav style="padding-top: 15px">
+        <a class="navElement" href="">ACCUEIL</a>
+        <a class="navElement" href="">A PROPOS </a>
+        <a class="navElement" href="">TRAVAIL</a>
+        <a class="navElement" href=""> CV</a>
+        <a class="navElement" href="">CONTACT</a>
+      </nav>
+    </header>
+    <br />
+    <main>
+      <section>
+        <p id="lew1">A PROPOS</p>
 
-    <section style="text-align: center; border: solid red; background-color: brown;">
-      <p style="font-weight: 900; letter-spacing: 4px; font-weight: bold ;font-family: Verdana, Geneva, Tahoma, sans-serif;"> TRAVAIL</p> 
-      <audio controls style="border:solid; 
-      background-color: brown;
-      border-radius: 15%;">
-        <source src="./assets/aud1.mp3" type="audio/mpeg">
+        <div class="vid">
+          <video width="300px" height="200" controls>
+            <source src="./assets/VID1.mp4" type="video mp4" />
+          </video>
+        </div>
+      </section>
+      <br />
 
-    </audio>
-    </section>
+      <section style="text-align: center">
+        <p class="TR1">TRAVAIL</p>
+        <audio controls>
+          <source src="./assets/aud1.mp3" type="audio/mpeg" />
+        </audio>
+      </section>
 
-    <section style="text-align: center;
-    border: dashed;
-    color: red; background-color: aqua;
-    ">
-      <p style="font-weight: 900; letter-spacing: 4px; font-weight: bold ;font-family: Verdana, Geneva, Tahoma, sans-serif;"> CV </p>
-      <a href="lien vers cv " target="_blank"> lien vers CV </a>
+      <section style="text-align: center">
+        <p id="cv1">CV</p>
+        <a href="lien vers cv " target="_blank" 
+        style="text-decoration: none" >
+          lien vers CV</a>
+      </section>
 
-    </section> 
+      <section style="text-align: center;">
+        <div class="form0"> 
+        <p  style=" text-decoration: underline;">
+          CONTACT </p>
+        <form>
+          <label> NUMERO</label>
+          <input
+            type="number"
+            name="number"
+            placeholder="entrez votre numero"
+          />
+        
 
-    <section style="background-color: brown
-    ;
-    text-align: center;
-    "> 
-           <p style="font-weight: 900; letter-spacing: 4px; font-weight: bold ;font-family: Verdana, Geneva, Tahoma, sans-serif;"> CONTACT </p> 
-           <form>
-            <label> NUMERO</label>
-            <input type="number" name="number" placeholder="entrez votre numero" />
-            <br />
-      
-            <label>EMAIL:</label>
-            <input type="email" name="EMAIL" placeholder="entrez votre email" />
-            <br /> 
-           </form>  
-          
-    </section>
+        <label> EMAIL </label>
+          <input type="email" name="EMAIL" 
+          placeholder="entrez votre email" />
+         </form> 
+        </div>
+      </section>
+    </main>
 
-  </main>
-
-   <footer>
-   <hr> 
-   <h6> 
-    merci pour votre visite 
-   </h6>
-  </footer>
-  
-  
+    <footer>
+      <hr />
+      <h6 style="color: #fff; text-align: center;">merci pour votre visite</h6>
+    </footer>
   </body>
-
 </html>

@@ -1,31 +1,63 @@
 
 nav {
     text-align: center;
-    border: solid;
+    border: none;
     height: 40px;
-    background-color: #ddd;
+    background-color: #00007f; 
+    
 }
 
 .navElement {
     display: inline;
     margin: 0 15px;
-    text-decoration: none;
+    text-decoration: none; 
+    color: #ffffff;
 } 
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    background-color: #00004c;
+  } 
+
 #lew1{
-    text-align: center;
-    color: red  ; 
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-letter-spacing: 4px;
+    word-spacing: 5px; 
+    letter-spacing: 5px; 
+    font-weight: 900; 
+    border: inset 5px;
+    border-color: blue;
+    border-radius: 15%;
+    padding: 5px 5px ; 
+    text-align: center; 
+    color: #ffffff;
+    
 } 
 
-#lew0{
+.vid{
     text-align: center; 
-    border: solid red;
-    background: url(/assets/img.png);
-    
-    background-size: contain;
+}  
+
+.TR1{
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #ffffff;
+    border: solid blue; 
+    padding: 5px 5px;
+    border-radius: 15%;
 } 
-section{
-    margin-bottom: 20px;
+
+#cv1{
+    color: #ffffff; 
+    letter-spacing: 5px; 
+    font-weight: 900;
+    border: groove blue;
+    padding: 5px 5px;
+    border-radius: 15%;
+} 
+
+.form0{
+    color: #ffffff;
+    border: none;
+    padding: 5px 5px ;
+    
 }
